@@ -1,0 +1,5 @@
+Dependencies for Project 'XOA', Target 'XOA': (DO NOT MODIFY !)
+F (.\XOA v1.2.0 max=600mA.c)(0x5ACB0026)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ADI-o ".\xoa v1.2.0 max=600ma.o" --omf_browse ".\xoa v1.2.0 max=600ma.crf" --depend ".\xoa v1.2.0 max=600ma.d")
+F (.\startup_RV.s)(0x457F5FF6)(--cpu ARM7TDMI -g --apcs=interwork -I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ADI--list .\startup_rv.lst --xref -o .\startup_rv.o --depend .\startup_rv.d)
+F (d:\Keil\ARM\INC\ADI\irq_arm.c)(0x51C7B92A)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ADI-o .\irq_arm.o --omf_browse .\irq_arm.crf --depend .\irq_arm.d)
+F (d:\Keil\ARM\INC\ADI\ADuC7020.def)(0x51C7B92A)()
