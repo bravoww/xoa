@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\xoa v1.2.0 max=600ma.o"
+".\startup_rv.o"
+".\irq_arm.o"
+--strict --scatter ".\XOA.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\XOA.map" -o .\XOA.axf
